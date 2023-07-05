@@ -16,16 +16,16 @@ key down = 'j'
 key top = 'H'
 
 ## Move cursor to the top of the list
-key home = 262,  Ctrl-A,  'g'
+key home = 'g'
 
 ## Move cursor to the bottom of the list
-key end = 360,  Ctrl-E,  'G'
+key end = 'G'
 
 ## Page up
-key pgup = 339,  Ctrl-U
+key pgup = Ctrl-U
 
 ## Page down
-key pgdn = 338,  Ctrl-D
+key pgdn = Ctrl-D
 
 ## Select currently playing song
 key select-playing = 0
@@ -70,7 +70,7 @@ key select = 0
 key select_all = 0
 
 ## Delete song from queue
-key delete = 'd'
+key delete = 'D'
 
 ## Clear queue
 key clear = 0
