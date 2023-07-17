@@ -19,7 +19,8 @@ search-mode = 4
 audible-bell = no
 visible-bell = no
 
-find-show-last = no
+# fill-in previous search-string
+find-show-last = yes
 find-wrap = yes
 wrap-around = no
 bell-on-wrap = no
