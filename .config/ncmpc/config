@@ -28,79 +28,38 @@ seek-time = 1.0
 # }}}
 
 # display {{{
-## Show a list of the screens in the top line.
-#welcome-screen-list = yes
 welcome-screen-list = no
 
-## Make the cursor as wide as the screen.
-#wide-cursor = yes
+# NOTE:
+#   1. do not specify |search-format| to continue using |list-format|
+list-format = "%disc%.%track%  %title%"
+
+# show length of item in separate column
+second-column = yes
+
+# do NOT (horizontally) scroll
+scroll = no
+
+# only highlight portion(s) of current line with text
 wide-cursor = no
-
-## Use the terminal's hardware cursor instead of inverse colors
-#hardware-cursor = yes
 hardware-cursor = no
+hide-cursor = 3.7
 
-## Hide playlist cursor after x seconds (0 disables this feature).
-#hide-cursor = 5
-hide-cursor = 1
-
-## Scroll the title if it is too long for the screen.
-scroll = yes
-
-## The separator to show at the end of the scrolling title.
-#scroll-sep = " *** "
-
-
-
-
-## list-format
-## The format used to display songs in the main window.
-#list-format = "%name%|[[%artist%|%performer%|%composer%] - ][%title%|%shortfile%]"
-list-format = "%disc%.%track% %title%"
-
-## The format used to display songs in the search window.
-#search-format = "%name%|[[%artist%|%performer%|%composer%] - ][%title%|%shortfile%]"
-
-## The format used to display songs on the status line.
-#status-format = "[[%artist%|%performer%|%composer%] - ][%title%|%shortfile%]"
+# status-line {{{
 status-format = "%title%"
 
-
-
-## The time, in seconds, for which status messages will be displayed.
-#status-message-time = 3
 status-message-time = 2
 
-## Sets whether to display remaining or elapsed time in
-## the status window. Default is elapsed.
-#timedisplay-type = elapsed
 timedisplay-type = elapsed
 
-## Show the bitrate in the status bar when playing a stream.
-#visible-bitrate = no
 visible-bitrate = yes
+# }}}
 
-## Change the XTerm title (ncmpc will not restore the title).
-#set-xterm-title = no
-
-## The format used to for the xterm title when ncmpc is playing.
-#xterm-title-format = "ncmpc: [%name%|[[%artist%|%performer%|%composer%] - ][%title%|%shortfile%]]"
-
-## Automatically save the lyrics after receiving them.
-#lyrics-autosave = no
-
-## The text editor used for editing lyrics.
-#text-editor = emacs
+# misc {{{
 text-editor = nvim
 
-## Ask before starting an editor.
-#text-editor-ask = yes
-
-## The prefix of chat messages
-#chat-prefix = "<user> "
-
-## Display song length in second column
-#second-column = yes
+lyrics-autosave = no
+# }}}
 # }}}
 
 # colors {{{
