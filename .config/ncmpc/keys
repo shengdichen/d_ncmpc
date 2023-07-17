@@ -28,16 +28,21 @@ key delete = 'D'
 
 # playback {{{
 key play = 'l'
+# |space|
 key pause = 32
 key stop = 0
 # clear queue
 key clear = 0
 
-key seek-forward = 261
+# |left|
 key seek-backward = 260
+# |right|
+key seek-forward = 261
 
-key volume-up = 61
+# |-|
 key volume-down = 45
+# |=|
+key volume-up = 61
 
 key lyrics-interrupt = 0
 key lyrics-update = 0
