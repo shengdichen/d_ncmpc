@@ -53,10 +53,10 @@ key screen-help = F1
 
 key library-page = '1'
 key screen-browse = '2'
-key screen-playlist = '3'
 key screen-search = 'F'
 
-key screen-outputs = '0'
+key screen-outputs = '9'
+key screen-playlist = '0'
 
 key screen-chat = 0
 # }}}
