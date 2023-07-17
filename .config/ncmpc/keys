@@ -14,8 +14,10 @@ key end = 'G'
 key locate = 13
 
 key go-parent-directory = 'h'
-key move-up = 'K'
-key move-down = 'J'
+# |up|
+key move-up = 259
+# |down|
+key move-down = 258
 
 key select = 0
 key select_all = 0
