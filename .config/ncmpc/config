@@ -19,6 +19,8 @@ search-mode = 4
 audible-bell = no
 visible-bell = no
 
+scroll-offset = 2
+
 # fill-in previous search-string
 find-show-last = yes
 find-wrap = yes
