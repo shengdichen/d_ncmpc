@@ -115,9 +115,9 @@ color background = 000
 
 # title-lines {{{
 # first row, LHS
-color title-bold = 015
+color title-bold = 008
 # foreground only for RHS, background for entire first row
-color title = 015/000
+color title = 008/000
 
 # separator between title-lines & main display
 color line = 008
