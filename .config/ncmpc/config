@@ -1,15 +1,8 @@
 # connection {{{
-## Connect to mpd running on a specified host
-#host = "localhost"
+host = "localhost"
+port = 6600
 
-## Connect to mpd on the specified port.
-#port = 6600
-
-## Connect to mpd using the specified password.
-#password = "secret"
-
-## Reconnect after NUM seconds of MPD not responding.
-#timeout = 5
+password = "user"
 # }}}
 
 # interface {{{
