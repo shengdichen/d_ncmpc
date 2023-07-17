@@ -10,7 +10,8 @@ key end = 'G'
 
 # browse {{{
 # open location in file-browser
-key locate = 'I'
+# |enter/return|
+key locate = 13
 
 key go-parent-directory = 'h'
 key move-up = 'K'
