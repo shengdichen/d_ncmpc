@@ -66,3 +66,5 @@ key crop = 0
 key wrap-mode = 0
 key autocenter-mode = 0
 # }}}
+
+# vim: filetype=conf foldmethod=marker
