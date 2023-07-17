@@ -46,7 +46,7 @@ hardware-cursor = no
 hide-cursor = 3.7
 
 # status-line {{{
-status-format = "%title%"
+status-format = "%artist% -> %title%"
 
 status-message-time = 2
 
