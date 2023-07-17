@@ -36,6 +36,9 @@ key seek-backward = 260
 
 key volume-up = 61
 key volume-down = 45
+
+key lyrics-interrupt = 0
+key lyrics-update = 0
 # }}}
 
 # page {{{
@@ -53,25 +56,12 @@ key screen-chat = '9'
 key screen-keyedit = '0'
 # }}}
 
-## Quit
 key quit = 'Q'
 
-## Crop
-key crop = 0
-
-## Start a music database update
 key db-update = 0
 
-## Go to parent directory
-## Toggle find mode
+key crop = 0
+
 key wrap-mode = 0
 
-## Toggle auto center mode
 key autocenter-mode = 0
-
-## Interrupt action
-key lyrics-interrupt = 0
-
-## Update Lyrics
-key lyrics-update = 0
-
