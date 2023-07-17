@@ -25,7 +25,8 @@ find-wrap = yes
 wrap-around = no
 bell-on-wrap = no
 
-seek-time = 1.0
+# step-size (in seconds) when seeking
+seek-time = 2.7
 # }}}
 
 # display {{{
