@@ -23,23 +23,26 @@ key volume-up = 61
 key volume-down = 45
 # }}}
 
+# page {{{
+key screen-help = F1
+
+key library-page = '1'
+key screen-browse = '2'
+key screen-playlist = '3'
+key screen-search = '4'
+
+key screen-lyrics = '7'
+key screen-outputs = '8'
+key screen-chat = '9'
+
+key screen-keyedit = '0'
+# }}}
+
 ## Select currently playing song
 key select-playing = 0
 
-## Key configuration screen
-key screen-keyedit = '0'
-
 ## Quit
 key quit = 'Q'
-
-## Help screen
-key screen-help = F1
-
-## Queue screen
-key screen-playlist = '3'
-
-## Browse screen
-key screen-browse = '2'
 
 ## Crop
 key crop = 0
@@ -74,24 +77,9 @@ key wrap-mode = 0
 ## Toggle auto center mode
 key autocenter-mode = 0
 
-## Library page
-key library-page = '1'
-
-## Search screen
-key screen-search = '4'
-
-## Lyrics screen
-key screen-lyrics = '7'
-
 ## Interrupt action
 key lyrics-interrupt = 0
 
 ## Update Lyrics
 key lyrics-update = 0
-
-## Outputs screen
-key screen-outputs = '8'
-
-## Chat screen
-key screen-chat = '9'
 
