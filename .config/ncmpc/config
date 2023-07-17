@@ -130,7 +130,7 @@ color line-flags = 008
 color list = 015
 
 # highlighted (e.g., selected or currectly playing)
-color list-bold = 015,bold
+color list-bold = 012,bold/000
 # }}}
 
 # browser {{{
