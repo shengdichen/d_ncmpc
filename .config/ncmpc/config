@@ -42,7 +42,7 @@ scroll = no
 # status-line {{{
 status-format = "%artist% -> %title%"
 
-status-message-time = 2
+status-message-time = 2.7
 
 timedisplay-type = elapsed
 
