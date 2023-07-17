@@ -104,15 +104,20 @@ text-editor = nvim
 # }}}
 
 # colors {{{
+# NOTE:
+#   000 := black
+#   008 := grey
+#   015 := white
+
 enable-colors = yes
 
-color background = black
+color background = 000
 
 # title-lines {{{
 # first row, LHS
-color title-bold = white
+color title-bold = 015
 # foreground only for RHS, background for entire first row
-color title = white/black
+color title = 015/000
 
 # separator between title-lines & main display
 color line = 008
@@ -122,28 +127,28 @@ color line-flags = 008
 
 # main display {{{
 # non-highlighted
-color list = white
+color list = 015
 
 # highlighted
-color list-bold = white,bold
+color list-bold = 015,bold
 # }}}
 
 # browser {{{
-color browser-directory = white
-color browser-playlist = white
+color browser-directory = 015
+color browser-playlist = 015
 # }}}
 
 # status-line {{{
-color progressbar = black/black
+color progressbar = 000/000
 color progressbar-background = 008
 
 # play/pause indicator
-color status-state = 008/black
-color status-song  = 008/black
+color status-state = 008/000
+color status-song  = 008/000
 # time&bit-rate
-color status-time  = 008/black
+color status-time  = 008/000
 
-color alert = black,bold/008
+color alert = 000,bold/008
 # }}}
 # }}}
 
