@@ -129,7 +129,7 @@ color line-flags = 008
 # non-highlighted
 color list = 015
 
-# highlighted
+# highlighted (e.g., selected or currectly playing)
 color list-bold = 015,bold
 # }}}
 
