@@ -19,8 +19,8 @@ key move-up = 259
 # |down|
 key move-down = 258
 
-key select = 0
-key select_all = 0
+key select = 't'
+key select_all = 'T'
 key select-playing = 0
 
 key delete = 'D'
