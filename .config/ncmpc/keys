@@ -46,7 +46,7 @@ key screen-help = F1
 key library-page = '1'
 key screen-browse = '2'
 key screen-playlist = '3'
-key screen-search = '4'
+key screen-search = 'F'
 
 key screen-lyrics = '8'
 key screen-outputs = '9'
