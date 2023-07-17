@@ -1,8 +1,4 @@
-##
-## Configuration file for ncmpc (~/.config/ncmpc/config)
-##
-
-############## Connection ###################
+# connection {{{
 ## Connect to mpd running on a specified host
 #host = "localhost"
 
@@ -14,8 +10,9 @@
 
 ## Reconnect after NUM seconds of MPD not responding.
 #timeout = 5
+# }}}
 
-############## Interface ####################
+# interface {{{
 ## Enable mouse support (if enabled at compile time).
 enable-mouse = no
 
@@ -61,11 +58,9 @@ visible-bell = no
 
 ## Seek forward/backward by NUM seconds.
 #seek-time = 1
+# }}}
 
-
-
-
-############## Display ######################
+# display {{{
 ## Show a list of the screens in the top line.
 #welcome-screen-list = yes
 welcome-screen-list = no
@@ -139,8 +134,9 @@ text-editor = nvim
 
 ## Display song length in second column
 #second-column = yes
+# }}}
 
-############## Colors #######################
+# colors {{{
 ## colors: none, black, red, green, yellow, blue, magenta, cyan, white
 ## attributes: standout, underline, reverse, blink, dim, bold
 ##
@@ -196,5 +192,6 @@ enable-colors = no
 ## The RGB values must be an integer value between 0 and 1000.
 ## Note: Only some terminals allow redefinitions of colors!
 #colordef yellow = 255, 140, 0
+# }}}
 
 # vim: filetype=conf foldmethod=marker
