@@ -56,8 +56,7 @@ key screen-browse = '2'
 key screen-playlist = '3'
 key screen-search = 'F'
 
-key screen-outputs = '9'
-key screen-keyedit = '0'
+key screen-outputs = '0'
 
 key screen-chat = 0
 # }}}
