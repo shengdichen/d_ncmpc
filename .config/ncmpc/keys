@@ -4,7 +4,6 @@ key down = 'j'
 key scroll-up-half = 'u'
 key scroll-down-half = 'd'
 
-key top = 'H'
 key home = 'g'
 key end = 'G'
 # }}}
