@@ -1,8 +1,8 @@
 # navigation {{{
 key up = 'k'
 key down = 'j'
-key pgup = Ctrl-U
-key pgdn = Ctrl-D
+key scroll-up-half = 'u'
+key scroll-down-half = 'd'
 
 key top = 'H'
 key home = 'g'
