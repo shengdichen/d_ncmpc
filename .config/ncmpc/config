@@ -32,7 +32,7 @@ welcome-screen-list = no
 
 # NOTE:
 #   1. do not specify |search-format| to continue using |list-format|
-list-format = "%disc%.%track%  %title%"
+list-format = "[[[%disc%.]%track%  ]%title%]|%file%"
 
 # show length of item in separate column
 second-column = yes
