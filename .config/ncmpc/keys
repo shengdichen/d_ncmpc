@@ -58,7 +58,9 @@ key screen-search = 'F'
 key screen-outputs = '9'
 key screen-playlist = '0'
 
+key screen-lyrics = 0
 key screen-chat = 0
+key screen-keyedit = 0
 # }}}
 
 # misc {{{
