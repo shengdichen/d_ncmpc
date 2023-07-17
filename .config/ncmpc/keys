@@ -48,11 +48,11 @@ key screen-browse = '2'
 key screen-playlist = '3'
 key screen-search = '4'
 
-key screen-lyrics = '7'
-key screen-outputs = '8'
-key screen-chat = '9'
-
+key screen-lyrics = '8'
+key screen-outputs = '9'
 key screen-keyedit = '0'
+
+key screen-chat = 0
 # }}}
 
 # misc {{{
