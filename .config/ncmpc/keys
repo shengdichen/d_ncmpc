@@ -9,6 +9,21 @@ key home = 'g'
 key end = 'G'
 # }}}
 
+# browse {{{
+# open location in file-browser
+key locate = 'I'
+
+key go-parent-directory = 'h'
+key move-up = 'K'
+key move-down = 'J'
+
+key select = 0
+key select_all = 0
+key select-playing = 0
+
+key delete = 'D'
+# }}}
+
 # playback {{{
 key play = 'l'
 key pause = 32
@@ -38,39 +53,16 @@ key screen-chat = '9'
 key screen-keyedit = '0'
 # }}}
 
-## Select currently playing song
-key select-playing = 0
-
 ## Quit
 key quit = 'Q'
 
 ## Crop
 key crop = 0
 
-## Select/deselect song in queue
-key select = 0
-
-## Select all listed items
-key select_all = 0
-
-## Delete song from queue
-key delete = 'D'
-
 ## Start a music database update
 key db-update = 0
 
 ## Go to parent directory
-key go-parent-directory = 'h'
-
-## Locate song in browser
-key locate = 'I'
-
-## Move item up
-key move-up = 'K'
-
-## Move item down
-key move-down = 'J'
-
 ## Toggle find mode
 key wrap-mode = 0
 
