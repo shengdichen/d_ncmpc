@@ -5,8 +5,8 @@ port = 6600
 password = "user"
 # }}}
 
-# interface {{{
-enable-mouse = no
+# library {{{
+welcome-screen-list = no
 
 library-page-tags = albumartist album disc
 
@@ -15,11 +15,6 @@ screen-list = library browse
 
 # search in mode |artist+title| by default
 search-mode = 4
-
-audible-bell = no
-visible-bell = no
-
-scroll-offset = 2
 
 # fill-in previous search-string
 find-show-last = yes
@@ -31,8 +26,8 @@ bell-on-wrap = no
 seek-time = 2.7
 # }}}
 
-# display {{{
-welcome-screen-list = no
+# visual {{{
+scroll-offset = 2
 
 # NOTE:
 #   1. do not specify |search-format| to continue using |list-format|
@@ -41,18 +36,13 @@ list-format = "[[[[%disc%.]%track%  ]%title%]|%file%]  //  %album%"
 # show length of item in separate column
 second-column = yes
 
-# do NOT (horizontally) scroll
+# do NOT (horizontally) scroll long lines
 scroll = no
-
-# only highlight portion(s) of current line with text
-wide-cursor = no
-hardware-cursor = no
-hide-cursor = 3.7
 
 # status-line {{{
 status-format = "%artist% -> %title%"
 
-status-message-time = 2
+status-message-time = 2.7
 
 timedisplay-type = elapsed
 
@@ -60,17 +50,28 @@ visible-bitrate = yes
 # }}}
 
 # misc {{{
+enable-mouse = no
+
+audible-bell = no
+visible-bell = no
+
+# only highlight portion(s) of current line with text
+wide-cursor = no
+hardware-cursor = no
+hide-cursor = 3.7
+
 text-editor = nvim
 
 lyrics-autosave = no
 # }}}
 # }}}
 
-# colors {{{
+# colorscheme {{{
 # NOTE:
 #   000 := black
 #   008 := grey
 #   015 := white
+#   012 := (light) blue
 
 enable-colors = yes
 
