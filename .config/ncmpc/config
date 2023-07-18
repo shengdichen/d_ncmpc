@@ -66,11 +66,12 @@ lyrics-autosave = no
 # }}}
 # }}}
 
-# colors {{{
+# colorscheme {{{
 # NOTE:
 #   000 := black
 #   008 := grey
 #   015 := white
+#   012 := (light) blue
 
 enable-colors = yes
 
