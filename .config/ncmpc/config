@@ -69,7 +69,8 @@ lyrics-autosave = no
 # colorscheme {{{
 # NOTE:
 #   000 := black
-#   008 := grey
+#   007 := grey, light
+#   008 := grey, bright
 #   015 := white
 #   012 := (light) blue
 
