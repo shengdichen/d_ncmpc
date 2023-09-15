@@ -80,14 +80,14 @@ color background = 000
 
 # title-lines {{{
 # first row, LHS
-color title-bold = 008
+color title-bold = 007
 # foreground only for RHS, background for entire first row
-color title = 008/000
+color title = 007/000
 
 # separator between title-lines & main display
 color line = 008
 # second row, RHS
-color line-flags = 008
+color line-flags = 007
 # }}}
 
 # main display {{{
@@ -105,15 +105,15 @@ color browser-playlist = 015
 
 # status-line {{{
 color progressbar = 000/000
-color progressbar-background = 008
+color progressbar-background = 007
 
 # play/pause indicator
-color status-state = 008/000
-color status-song  = 008/000
+color status-state = 007/000
+color status-song  = 007/000
 # time&bit-rate
-color status-time  = 008/000
+color status-time  = 007/000
 
-color alert = 000,bold/008
+color alert = 000,bold/007
 # }}}
 # }}}
 
