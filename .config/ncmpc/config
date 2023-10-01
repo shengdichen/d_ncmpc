@@ -72,7 +72,7 @@ lyrics-autosave = no
 #   007 := grey, light
 #   008 := grey, bright
 #   015 := white
-#   012 := (light) blue
+#   013 := (light) magenta
 
 enable-colors = yes
 
@@ -95,7 +95,7 @@ color line-flags = 007
 color list = 015
 
 # highlighted (e.g., selected or currectly playing)
-color list-bold = 012,bold/000
+color list-bold = 013,bold/000
 # }}}
 
 # browser {{{
